@@ -51,24 +51,34 @@
     </div>
   </div>
 </div>
-<!--Want to learn more? Watch this documentary-->
-<!-- <div class="container">
+<div class="container" id="quotebox">
   <div class="row">
-    <h3>Want to learn more?</h3>
-    <p>Watch this documentary!</p>
-    <iframe src="https://nobelmedia.akamaized.net/flashcontent/docu_1921_phy_einstein_01_496.mp4"></iframe>
-  </div>
-</div> -->
-<!--Footer: quote & wikipedia-->
-<div class="container">
-  <div class="row">
-    <div>
-      <p class="quote"><q>Logic will get you from A to Z; imagination will get you everywhere.</q></p>
-      <p><cite></cite></p>
-      </p>To find out more about this incredible human, visit<a href="https://en.wikipedia.org/wiki/Albert_Einstein">Wikepedia.</a><p>
-    </div>
+    <p class="quote"><q>Logic will get you from A to Z; imagination will get you everywhere.</q></p>
+    <p><cite>Albert Einstein</cite></p>
   </div>
 </div>
+<!--More-->
+<div class="container" id="morebox">
+  <div class="row">
+    <fieldset id="more">
+      <div>
+        <h5>Want to learn more?</h5>
+      </div>
+      <div>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-xl">Watch documentary</button>
+        <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+              <iframe src="https://nobelmedia.akamaized.net/flashcontent/docu_1921_phy_einstein_01_496.mp4"></iframe>
+            </div>
+    </fieldset>
+  </div>
+</div>
+<!--Wikipedia-->
+<div class="container">
+  <div class="row">
+    <p>Alternatively, visit <a href="https://en.wikipedia.org/wiki/Albert_Einstein">Wikipedia</a>.</p>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>

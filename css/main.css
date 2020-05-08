@@ -22,6 +22,20 @@ img {
     width: 50%;
     border: 2px solid rgb(199, 219, 199);
 }
+
+
 h2, h3, .list-group-item {
     color: rgb(110, 109, 109);
+}
+#quotebox {
+    background-color: rgb(248, 248, 239);
+    width: 90%;
+    margin-bottom: 20px;
+}
+#morebox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: 2px solid rgb(199, 219, 199);
 }
