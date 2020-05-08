@@ -17,8 +17,8 @@ h1, h4, .quote {
 }
 img {
     text-align: center;
-    height: 250px;
-    width: 500px;
+    height: 125px;
+    width: 250px;
     border: 2px solid rgb(199, 219, 199);
 }
 h2, h3, .list-group-item {
