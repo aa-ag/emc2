@@ -16,9 +16,10 @@ h1, h4, .quote {
     font-weight: bold;
 }
 img {
-    text-align: center;
-    height: 125px;
-    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     border: 2px solid rgb(199, 219, 199);
 }
 h2, h3, .list-group-item {
