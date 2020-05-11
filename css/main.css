@@ -6,11 +6,16 @@ html {
     margin: 2px;
 }
 .ceter-span {
-    text-align: center;
+    text-align: left;
 }
 h1, h2, h3 {
     display: block;
     text-align: center;
+}
+#funfacts{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
 }
 h1, h4, .quote {
     font-weight: bold;
