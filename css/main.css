@@ -8,7 +8,21 @@ html {
 .ceter-span {
     text-align: left;
 }
-h1, h2, h3 {
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 2px solid rgb(199, 219, 199);
+}
+h1, h2, h3, h4 {
+    display: block;
+    text-align: center;
+}
+h4 {
+    text-decoration: underline;
+}
+#credit {
     display: block;
     text-align: center;
 }
@@ -20,25 +34,14 @@ h1, h2, h3 {
 h1, h4, .quote {
     font-weight: bold;
 }
-h4 {
-    text-decoration: underline;
-}
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border: 2px solid rgb(199, 219, 199);
-}
-
-
 h2, h3, .list-group-item {
     color: rgb(110, 109, 109);
 }
 #quotebox {
     background-color: rgb(248, 248, 239);
-    width: 90%;
+    width: 100%;
     margin-bottom: 20px;
+    text-align: center;
 }
 #morebox {
     display: block;
@@ -46,4 +49,7 @@ h2, h3, .list-group-item {
     margin-right: auto;
     width: 90%;
     border: 2px solid rgb(199, 219, 199);
+}
+#more {
+    text-align: center;
 }
